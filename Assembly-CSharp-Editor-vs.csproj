@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{095FE4FE-0FCA-A641-2D72-61F4650B867C}</ProjectGuid>
+	<ProjectGuid>{A9B267D4-80F8-297B-2F14-4713C26CD232}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Editor\HandControllerEditor.cs" />
-     <Compile Include="Assets\Sample Stuff\Standard Assets\ParticleSystems\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Resources\LeapIRUndistorted.shader" />
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Resources\LeapIRDistorted.shader" />
@@ -58,20 +57,18 @@
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\readme.txt" />
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Shaders\RimShading.shader" />
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
-     <None Include="Assets\Sample Stuff\Standard Assets\ParticleSystems\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
-     <None Include="Assets\Sample Stuff\Standard Assets\ParticleSystems\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\SkySphere_V1\Documentation\How to use.txt" />
-     <None Include="Assets\Sample Stuff\Standard Assets\ParticleSystems\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Sample Stuff\Standard Assets\ParticleSystems\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Materials\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Materials\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\Sample Stuff\Sample Assets\LeapMotion\Resources\LeapRGBUndistorted.shader" />
-     <None Include="Assets\Sample Stuff\Standard Assets\ParticleSystems\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>C:/Users/Ryan/Documents/LeapMotionProject/Assets/LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>C:/Users/Ryan/Documents/BitBucket/LeapSkeeball/Assets/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -106,7 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{FCB5B120-E875-CD15-C0E9-2D83258A8F81}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{9BF0D53E-8EDC-83A4-2ED1-B107FCE8A098}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

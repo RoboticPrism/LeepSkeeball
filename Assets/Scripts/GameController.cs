@@ -25,6 +25,9 @@ public class GameController : MonoBehaviour {
 	int p1balls=5;
 	int p2balls=5;
 
+	//Style
+	GUIStyle style = new GUIStyle ();
+
 	//Debugging vars
 	bool ready = true;
 
@@ -34,12 +37,11 @@ public class GameController : MonoBehaviour {
 	//EXTERNAL VARIABLES
 	
 	//Ball Spawn locations
-	public Transform p1spawn;
-	public Transform p2spawn;
+	public Transform spawn;
 
-	//Sprite Objects to turn on and off
-	public GameObject p1sprite;
-	public GameObject p2sprite;
+	//Ball spawn item prefabs
+	public GameObject p1spawnblock;
+	public GameObject p2spawnblock;
 
 	//Text Objects to update 
 	public GUIText player1ScoreText;
@@ -47,6 +49,9 @@ public class GameController : MonoBehaviour {
 
 	//Sprite for Ball Counter
 	public Texture ballSprite;
+
+	public Texture p1sprite;
+	public Texture p2sprite;
 
 	//PROTOTYPES
 
@@ -69,10 +74,12 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		style.fontSize = 45;
+		style.fontStyle = FontStyle.Bold;
 		//Create ball, set vars to p1's turn
 		spawnBall ();
 		p1balls--;
-		p2sprite.SetActive (false);
+		p2spawnblock.SetActive(false);
 		//display text
 		Instantiate (p1turnstart);
 	}
@@ -110,8 +117,7 @@ public class GameController : MonoBehaviour {
 				//turn off UI items
 				player1ScoreText.gameObject.SetActive(false);
 				player2ScoreText.gameObject.SetActive(false);
-				p1sprite.SetActive(false);
-				p2sprite.SetActive(false);
+
 				//draw win screen
 				if(resetTimer==30){
 					drawWinner();
@@ -184,25 +190,39 @@ public class GameController : MonoBehaviour {
 	public void AddPoints(int points) {
 		if (p1turn) {
 			p1score += points;
-			//turn sprites for each players turn on or off
-			p1sprite.SetActive(false);
-			p2sprite.SetActive(true);
+
+			//swap blocks the ball spawns on
+			p1spawnblock.SetActive(false);
+			p2spawnblock.SetActive(true);
 		}
 		else {
 			p2score += points;
-			//turn sprites for each players turn on or off
-			p1sprite.SetActive(true);
-			p2sprite.SetActive(false);
+
+			//swap blocks the ball spawns on
+			p1spawnblock.SetActive(true);
+			p2spawnblock.SetActive(false);
 		}
 		//swap turns
 		p1turn=!p1turn;
 		ready = true;
 	}
 
-	//OnGUI draw each players number of balls left
+	//OnGUI draw each players number of balls left, player score, and player turn
 	void OnGUI(){
+		//draw balls left
 		drawBallCount (40, 100, p1balls);
 		drawBallCount (670, 100, p2balls);
+		//draw score
+		GUI.Label(ResizeGUI(new Rect(50,20,60,60)),"P1 Score: "+p1score, style);
+		GUI.Label(ResizeGUI(new Rect(600,20,60,60)),"P2 Score: "+p2score, style);
+		//draw turn
+		if (p1balls > 0 && p2balls > 0 && GameObject.FindGameObjectsWithTag ("GameBall").Length==0) {
+			if (p1turn) {
+				GUI.DrawTexture (ResizeGUI (new Rect (175, 15, 60, 60)), p1sprite, ScaleMode.ScaleToFit, true);
+			} else {
+				GUI.DrawTexture (ResizeGUI (new Rect (545, 15, 60, 60)), p2sprite, ScaleMode.ScaleToFit, true);
+			}
+		}
 	}
 
 	//Draws number of balls as sprites, stacking downwards from an xy coordinate within 800x600 screen space
@@ -232,27 +252,17 @@ public class GameController : MonoBehaviour {
 		//randomizer for ball spawns
 		int r = Random.Range(0,5);
 
-		//choose spawn point based on who's turn it is
-		Transform spawnPoint;
-
-		if (p1turn) {
-			spawnPoint = p1spawn;
-		} 
-		else {
-			spawnPoint=p2spawn;
-		}
-
 		//Spawn bomb ball
 		if(r==0){
-			ball = (GameBall)Instantiate(BombBallPrefab, spawnPoint.position, Quaternion.Euler(new Vector3(0,0,0)));
+			ball = (GameBall)Instantiate(BombBallPrefab, spawn.position, Quaternion.Euler(new Vector3(0,0,0)));
 		}
 		//Spawn fire ball
 		else if(r==1){
-			ball = (GameBall)Instantiate(FireBallPrefab, spawnPoint.position, Quaternion.Euler(new Vector3(0,0,0)));
+			ball = (GameBall)Instantiate(FireBallPrefab, spawn.position, Quaternion.Euler(new Vector3(0,0,0)));
 		}
 		//spawn normal ball
 		else{
-			ball = (GameBall)Instantiate(BallPrefab, spawnPoint.position, Quaternion.Euler(new Vector3(0,0,0)));
+			ball = (GameBall)Instantiate(BallPrefab, spawn.position, Quaternion.Euler(new Vector3(0,0,0)));
 		}
 		//set the game controller of the ball we made (used to send score back)
 		ball.game = this;
