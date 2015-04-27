@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: fbead967e7df6cd44b4de390ceb233f2
+timeCreated: 1427400394
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Both_Ends
+    100002: //RootNode
+    100004: Left_End
+    100006: Merged_Both_Ends
+    100008: Merged_Left_End
+    100010: Merged_No_Ends
+    100012: Merged_Right_End
+    100014: No_Ends
+    100016: pCube1
+    100018: pCube1 1
+    100020: pCube1 2
+    100022: pCube1 3
+    100024: pCube10
+    100026: pCube10 1
+    100028: pCube11
+    100030: pCube11 1
+    100032: pCube12
+    100034: pCube12 1
+    100036: pCube13
+    100038: pCube13 1
+    100040: pCube14
+    100042: pCube14 1
+    100044: pCube15
+    100046: pCube15 1
+    100048: pCube16
+    100050: pCube16 1
+    100052: pCube17
+    100054: pCube17 1
+    100056: pCube18
+    100058: pCube18 1
+    100060: pCube19
+    100062: pCube19 1
+    100064: pCube2
+    100066: pCube2 1
+    100068: pCube2 2
+    100070: pCube2 3
+    100072: pCube20
+    100074: pCube20 1
+    100076: pCube21
+    100078: pCube21 1
+    100080: pCube23
+    100082: pCube23 1
+    100084: pCube3
+    100086: pCube3 1
+    100088: pCube3 2
+    100090: pCube3 3
+    100092: pCube4
+    100094: pCube4 1
+    100096: pCube4 2
+    100098: pCube4 3
+    100100: pCube5
+    100102: pCube5 1
+    100104: pCube5 2
+    100106: pCube5 3
+    100108: pCube6
+    100110: pCube6 1
+    100112: pCube6 2
+    100114: pCube6 3
+    100116: pCube7
+    100118: pCube7 1
+    100120: pCube8
+    100122: pCube8 1
+    100124: pCube9
+    100126: pCube9 1
+    100128: pSphere1
+    100130: pSphere1 1
+    100132: pSphere1 2
+    100134: pSphere1 3
+    100136: pSphere10
+    100138: pSphere10 1
+    100140: pSphere10 2
+    100142: pSphere10 3
+    100144: pSphere11
+    100146: pSphere11 1
+    100148: pSphere12
+    100150: pSphere12 1
+    100152: pSphere13
+    100154: pSphere13 1
+    100156: pSphere14
+    100158: pSphere14 1
+    100160: pSphere15
+    100162: pSphere15 1
+    100164: pSphere16
+    100166: pSphere16 1
+    100168: pSphere17
+    100170: pSphere17 1
+    100172: pSphere18
+    100174: pSphere18 1
+    100176: pSphere19
+    100178: pSphere19 1
+    100180: pSphere2
+    100182: pSphere2 1
+    100184: pSphere2 2
+    100186: pSphere2 3
+    100188: pSphere20
+    100190: pSphere20 1
+    100192: pSphere21
+    100194: pSphere21 1
+    100196: pSphere22
+    100198: pSphere22 1
+    100200: pSphere23
+    100202: pSphere23 1
+    100204: pSphere24
+    100206: pSphere24 1
+    100208: pSphere25
+    100210: pSphere25 1
+    100212: pSphere26
+    100214: pSphere26 1
+    100216: pSphere27
+    100218: pSphere27 1
+    100220: pSphere28
+    100222: pSphere28 1
+    100224: pSphere29
+    100226: pSphere29 1
+    100228: pSphere3
+    100230: pSphere3 1
+    100232: pSphere3 2
+    100234: pSphere3 3
+    100236: pSphere30
+    100238: pSphere30 1
+    100240: pSphere4
+    100242: pSphere4 1
+    100244: pSphere4 2
+    100246: pSphere4 3
+    100248: pSphere5
+    100250: pSphere5 1
+    100252: pSphere5 2
+    100254: pSphere5 3
+    100256: pSphere6
+    100258: pSphere6 1
+    100260: pSphere6 2
+    100262: pSphere6 3
+    100264: pSphere7
+    100266: pSphere7 1
+    100268: pSphere7 2
+    100270: pSphere7 3
+    100272: pSphere8
+    100274: pSphere8 1
+    100276: pSphere8 2
+    100278: pSphere8 3
+    100280: pSphere9
+    100282: pSphere9 1
+    100284: pSphere9 2
+    100286: pSphere9 3
+    100288: Right_End
+    400000: Both_Ends
+    400002: //RootNode
+    400004: Left_End
+    400006: Merged_Both_Ends
+    400008: Merged_Left_End
+    400010: Merged_No_Ends
+    400012: Merged_Right_End
+    400014: No_Ends
+    400016: pCube1
+    400018: pCube1 1
+    400020: pCube1 2
+    400022: pCube1 3
+    400024: pCube10
+    400026: pCube10 1
+    400028: pCube11
+    400030: pCube11 1
+    400032: pCube12
+    400034: pCube12 1
+    400036: pCube13
+    400038: pCube13 1
+    400040: pCube14
+    400042: pCube14 1
+    400044: pCube15
+    400046: pCube15 1
+    400048: pCube16
+    400050: pCube16 1
+    400052: pCube17
+    400054: pCube17 1
+    400056: pCube18
+    400058: pCube18 1
+    400060: pCube19
+    400062: pCube19 1
+    400064: pCube2
+    400066: pCube2 1
+    400068: pCube2 2
+    400070: pCube2 3
+    400072: pCube20
+    400074: pCube20 1
+    400076: pCube21
+    400078: pCube21 1
+    400080: pCube23
+    400082: pCube23 1
+    400084: pCube3
+    400086: pCube3 1
+    400088: pCube3 2
+    400090: pCube3 3
+    400092: pCube4
+    400094: pCube4 1
+    400096: pCube4 2
+    400098: pCube4 3
+    400100: pCube5
+    400102: pCube5 1
+    400104: pCube5 2
+    400106: pCube5 3
+    400108: pCube6
+    400110: pCube6 1
+    400112: pCube6 2
+    400114: pCube6 3
+    400116: pCube7
+    400118: pCube7 1
+    400120: pCube8
+    400122: pCube8 1
+    400124: pCube9
+    400126: pCube9 1
+    400128: pSphere1
+    400130: pSphere1 1
+    400132: pSphere1 2
+    400134: pSphere1 3
+    400136: pSphere10
+    400138: pSphere10 1
+    400140: pSphere10 2
+    400142: pSphere10 3
+    400144: pSphere11
+    400146: pSphere11 1
+    400148: pSphere12
+    400150: pSphere12 1
+    400152: pSphere13
+    400154: pSphere13 1
+    400156: pSphere14
+    400158: pSphere14 1
+    400160: pSphere15
+    400162: pSphere15 1
+    400164: pSphere16
+    400166: pSphere16 1
+    400168: pSphere17
+    400170: pSphere17 1
+    400172: pSphere18
+    400174: pSphere18 1
+    400176: pSphere19
+    400178: pSphere19 1
+    400180: pSphere2
+    400182: pSphere2 1
+    400184: pSphere2 2
+    400186: pSphere2 3
+    400188: pSphere20
+    400190: pSphere20 1
+    400192: pSphere21
+    400194: pSphere21 1
+    400196: pSphere22
+    400198: pSphere22 1
+    400200: pSphere23
+    400202: pSphere23 1
+    400204: pSphere24
+    400206: pSphere24 1
+    400208: pSphere25
+    400210: pSphere25 1
+    400212: pSphere26
+    400214: pSphere26 1
+    400216: pSphere27
+    400218: pSphere27 1
+    400220: pSphere28
+    400222: pSphere28 1
+    400224: pSphere29
+    400226: pSphere29 1
+    400228: pSphere3
+    400230: pSphere3 1
+    400232: pSphere3 2
+    400234: pSphere3 3
+    400236: pSphere30
+    400238: pSphere30 1
+    400240: pSphere4
+    400242: pSphere4 1
+    400244: pSphere4 2
+    400246: pSphere4 3
+    400248: pSphere5
+    400250: pSphere5 1
+    400252: pSphere5 2
+    400254: pSphere5 3
+    400256: pSphere6
+    400258: pSphere6 1
+    400260: pSphere6 2
+    400262: pSphere6 3
+    400264: pSphere7
+    400266: pSphere7 1
+    400268: pSphere7 2
+    400270: pSphere7 3
+    400272: pSphere8
+    400274: pSphere8 1
+    400276: pSphere8 2
+    400278: pSphere8 3
+    400280: pSphere9
+    400282: pSphere9 1
+    400284: pSphere9 2
+    400286: pSphere9 3
+    400288: Right_End
+    2300000: pCube1
+    2300002: pCube1 1
+    2300004: pCube1 2
+    2300006: pCube1 3
+    2300008: pCube10
+    2300010: pCube10 1
+    2300012: pCube11
+    2300014: pCube11 1
+    2300016: pCube12
+    2300018: pCube12 1
+    2300020: pCube13
+    2300022: pCube13 1
+    2300024: pCube14
+    2300026: pCube14 1
+    2300028: pCube15
+    2300030: pCube15 1
+    2300032: pCube16
+    2300034: pCube16 1
+    2300036: pCube17
+    2300038: pCube17 1
+    2300040: pCube18
+    2300042: pCube18 1
+    2300044: pCube19
+    2300046: pCube19 1
+    2300048: pCube2
+    2300050: pCube2 1
+    2300052: pCube2 2
+    2300054: pCube2 3
+    2300056: pCube20
+    2300058: pCube20 1
+    2300060: pCube21
+    2300062: pCube21 1
+    2300064: pCube23
+    2300066: pCube23 1
+    2300068: pCube3
+    2300070: pCube3 1
+    2300072: pCube3 2
+    2300074: pCube3 3
+    2300076: pCube4
+    2300078: pCube4 1
+    2300080: pCube4 2
+    2300082: pCube4 3
+    2300084: pCube5
+    2300086: pCube5 1
+    2300088: pCube5 2
+    2300090: pCube5 3
+    2300092: pCube6
+    2300094: pCube6 1
+    2300096: pCube6 2
+    2300098: pCube6 3
+    2300100: pCube7
+    2300102: pCube7 1
+    2300104: pCube8
+    2300106: pCube8 1
+    2300108: pCube9
+    2300110: pCube9 1
+    2300112: pSphere1
+    2300114: pSphere1 1
+    2300116: pSphere1 2
+    2300118: pSphere1 3
+    2300120: pSphere10
+    2300122: pSphere10 1
+    2300124: pSphere10 2
+    2300126: pSphere10 3
+    2300128: pSphere11
+    2300130: pSphere11 1
+    2300132: pSphere12
+    2300134: pSphere12 1
+    2300136: pSphere13
+    2300138: pSphere13 1
+    2300140: pSphere14
+    2300142: pSphere14 1
+    2300144: pSphere15
+    2300146: pSphere15 1
+    2300148: pSphere16
+    2300150: pSphere16 1
+    2300152: pSphere17
+    2300154: pSphere17 1
+    2300156: pSphere18
+    2300158: pSphere18 1
+    2300160: pSphere19
+    2300162: pSphere19 1
+    2300164: pSphere2
+    2300166: pSphere2 1
+    2300168: pSphere2 2
+    2300170: pSphere2 3
+    2300172: pSphere20
+    2300174: pSphere20 1
+    2300176: pSphere21
+    2300178: pSphere21 1
+    2300180: pSphere22
+    2300182: pSphere22 1
+    2300184: pSphere23
+    2300186: pSphere23 1
+    2300188: pSphere24
+    2300190: pSphere24 1
+    2300192: pSphere25
+    2300194: pSphere25 1
+    2300196: pSphere26
+    2300198: pSphere26 1
+    2300200: pSphere27
+    2300202: pSphere27 1
+    2300204: pSphere28
+    2300206: pSphere28 1
+    2300208: pSphere29
+    2300210: pSphere29 1
+    2300212: pSphere3
+    2300214: pSphere3 1
+    2300216: pSphere3 2
+    2300218: pSphere3 3
+    2300220: pSphere30
+    2300222: pSphere30 1
+    2300224: pSphere4
+    2300226: pSphere4 1
+    2300228: pSphere4 2
+    2300230: pSphere4 3
+    2300232: pSphere5
+    2300234: pSphere5 1
+    2300236: pSphere5 2
+    2300238: pSphere5 3
+    2300240: pSphere6
+    2300242: pSphere6 1
+    2300244: pSphere6 2
+    2300246: pSphere6 3
+    2300248: pSphere7
+    2300250: pSphere7 1
+    2300252: pSphere7 2
+    2300254: pSphere7 3
+    2300256: pSphere8
+    2300258: pSphere8 1
+    2300260: pSphere8 2
+    2300262: pSphere8 3
+    2300264: pSphere9
+    2300266: pSphere9 1
+    2300268: pSphere9 2
+    2300270: pSphere9 3
+    3300000: pCube1
+    3300002: pCube1 1
+    3300004: pCube1 2
+    3300006: pCube1 3
+    3300008: pCube10
+    3300010: pCube10 1
+    3300012: pCube11
+    3300014: pCube11 1
+    3300016: pCube12
+    3300018: pCube12 1
+    3300020: pCube13
+    3300022: pCube13 1
+    3300024: pCube14
+    3300026: pCube14 1
+    3300028: pCube15
+    3300030: pCube15 1
+    3300032: pCube16
+    3300034: pCube16 1
+    3300036: pCube17
+    3300038: pCube17 1
+    3300040: pCube18
+    3300042: pCube18 1
+    3300044: pCube19
+    3300046: pCube19 1
+    3300048: pCube2
+    3300050: pCube2 1
+    3300052: pCube2 2
+    3300054: pCube2 3
+    3300056: pCube20
+    3300058: pCube20 1
+    3300060: pCube21
+    3300062: pCube21 1
+    3300064: pCube23
+    3300066: pCube23 1
+    3300068: pCube3
+    3300070: pCube3 1
+    3300072: pCube3 2
+    3300074: pCube3 3
+    3300076: pCube4
+    3300078: pCube4 1
+    3300080: pCube4 2
+    3300082: pCube4 3
+    3300084: pCube5
+    3300086: pCube5 1
+    3300088: pCube5 2
+    3300090: pCube5 3
+    3300092: pCube6
+    3300094: pCube6 1
+    3300096: pCube6 2
+    3300098: pCube6 3
+    3300100: pCube7
+    3300102: pCube7 1
+    3300104: pCube8
+    3300106: pCube8 1
+    3300108: pCube9
+    3300110: pCube9 1
+    3300112: pSphere1
+    3300114: pSphere1 1
+    3300116: pSphere1 2
+    3300118: pSphere1 3
+    3300120: pSphere10
+    3300122: pSphere10 1
+    3300124: pSphere10 2
+    3300126: pSphere10 3
+    3300128: pSphere11
+    3300130: pSphere11 1
+    3300132: pSphere12
+    3300134: pSphere12 1
+    3300136: pSphere13
+    3300138: pSphere13 1
+    3300140: pSphere14
+    3300142: pSphere14 1
+    3300144: pSphere15
+    3300146: pSphere15 1
+    3300148: pSphere16
+    3300150: pSphere16 1
+    3300152: pSphere17
+    3300154: pSphere17 1
+    3300156: pSphere18
+    3300158: pSphere18 1
+    3300160: pSphere19
+    3300162: pSphere19 1
+    3300164: pSphere2
+    3300166: pSphere2 1
+    3300168: pSphere2 2
+    3300170: pSphere2 3
+    3300172: pSphere20
+    3300174: pSphere20 1
+    3300176: pSphere21
+    3300178: pSphere21 1
+    3300180: pSphere22
+    3300182: pSphere22 1
+    3300184: pSphere23
+    3300186: pSphere23 1
+    3300188: pSphere24
+    3300190: pSphere24 1
+    3300192: pSphere25
+    3300194: pSphere25 1
+    3300196: pSphere26
+    3300198: pSphere26 1
+    3300200: pSphere27
+    3300202: pSphere27 1
+    3300204: pSphere28
+    3300206: pSphere28 1
+    3300208: pSphere29
+    3300210: pSphere29 1
+    3300212: pSphere3
+    3300214: pSphere3 1
+    3300216: pSphere3 2
+    3300218: pSphere3 3
+    3300220: pSphere30
+    3300222: pSphere30 1
+    3300224: pSphere4
+    3300226: pSphere4 1
+    3300228: pSphere4 2
+    3300230: pSphere4 3
+    3300232: pSphere5
+    3300234: pSphere5 1
+    3300236: pSphere5 2
+    3300238: pSphere5 3
+    3300240: pSphere6
+    3300242: pSphere6 1
+    3300244: pSphere6 2
+    3300246: pSphere6 3
+    3300248: pSphere7
+    3300250: pSphere7 1
+    3300252: pSphere7 2
+    3300254: pSphere7 3
+    3300256: pSphere8
+    3300258: pSphere8 1
+    3300260: pSphere8 2
+    3300262: pSphere8 3
+    3300264: pSphere9
+    3300266: pSphere9 1
+    3300268: pSphere9 2
+    3300270: pSphere9 3
+    4300000: pCube2
+    4300002: pCube1
+    4300004: pSphere2
+    4300006: pSphere1
+    4300008: pCube3
+    4300010: pSphere3
+    4300012: pSphere4
+    4300014: pCube4
+    4300016: pSphere5
+    4300018: pSphere6
+    4300020: pCube5
+    4300022: pSphere7
+    4300024: pSphere8
+    4300026: pCube6
+    4300028: pSphere9
+    4300030: pSphere10
+    4300032: pCube16
+    4300034: pCube17
+    4300036: pSphere21
+    4300038: pSphere22
+    4300040: pCube18
+    4300042: pSphere23
+    4300044: pSphere24
+    4300046: pCube19
+    4300048: pSphere25
+    4300050: pSphere26
+    4300052: pCube20
+    4300054: pSphere27
+    4300056: pSphere28
+    4300058: pCube21
+    4300060: pSphere29
+    4300062: pSphere30
+    4300064: pCube23
+    4300066: pCube2
+    4300068: pCube1
+    4300070: pSphere2
+    4300072: pSphere1
+    4300074: pCube3
+    4300076: pSphere3
+    4300078: pSphere4
+    4300080: pCube4
+    4300082: pSphere5
+    4300084: pSphere6
+    4300086: pCube5
+    4300088: pSphere7
+    4300090: pSphere8
+    4300092: pCube6
+    4300094: pSphere9
+    4300096: pSphere10
+    4300098: pCube7
+    4300100: pCube8
+    4300102: pCube9
+    4300104: pCube10
+    4300106: pSphere11
+    4300108: pSphere12
+    4300110: pCube11
+    4300112: pSphere13
+    4300114: pSphere14
+    4300116: pCube12
+    4300118: pSphere15
+    4300120: pSphere16
+    4300122: pCube13
+    4300124: pSphere17
+    4300126: pSphere18
+    4300128: pCube14
+    4300130: pSphere19
+    4300132: pSphere20
+    4300134: pCube15
+    4300136: pCube2
+    4300138: pCube1
+    4300140: pSphere2
+    4300142: pSphere1
+    4300144: pCube3
+    4300146: pSphere3
+    4300148: pSphere4
+    4300150: pCube4
+    4300152: pSphere5
+    4300154: pSphere6
+    4300156: pCube5
+    4300158: pSphere7
+    4300160: pSphere8
+    4300162: pCube6
+    4300164: pSphere9
+    4300166: pSphere10
+    4300168: pCube7
+    4300170: pCube8
+    4300172: pCube2
+    4300174: pCube1
+    4300176: pSphere2
+    4300178: pSphere1
+    4300180: pCube3
+    4300182: pSphere3
+    4300184: pSphere4
+    4300186: pCube4
+    4300188: pSphere5
+    4300190: pSphere6
+    4300192: pCube5
+    4300194: pSphere7
+    4300196: pSphere8
+    4300198: pCube6
+    4300200: pSphere9
+    4300202: pSphere10
+    4300204: pCube9
+    4300206: pCube10
+    4300208: pSphere11
+    4300210: pSphere12
+    4300212: pCube11
+    4300214: pSphere13
+    4300216: pSphere14
+    4300218: pCube12
+    4300220: pSphere15
+    4300222: pSphere16
+    4300224: pCube13
+    4300226: pSphere17
+    4300228: pSphere18
+    4300230: pCube14
+    4300232: pSphere19
+    4300234: pSphere20
+    4300236: pCube15
+    4300238: pCube16
+    4300240: pCube17
+    4300242: pSphere21
+    4300244: pSphere22
+    4300246: pCube18
+    4300248: pSphere23
+    4300250: pSphere24
+    4300252: pCube19
+    4300254: pSphere25
+    4300256: pSphere26
+    4300258: pCube20
+    4300260: pSphere27
+    4300262: pSphere28
+    4300264: pCube21
+    4300266: pSphere29
+    4300268: pSphere30
+    4300270: pCube23
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
